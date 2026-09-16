@@ -551,7 +551,7 @@ def cap_markers(text, max_per_100: float = 2.0):
         first = s.split()[0]
         if first.strip(",") in marker_words:
             rest = s[len(first):]
-            s = rest.lstrip() 
+            s = rest.lstrip()
             s = s[0].lower() + s[1:] if s and s[0].isupper() else s
             sents[i] = s
     return _recapitalize(" ".join(sents))
