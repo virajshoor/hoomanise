@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+.run/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+clerk.json
+.DS_Store
+
+# Credentials, local provider state, logs and data exports
+.clerk/
+.railway/
+.neon/
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.dump
+*.sqlite*
+.envrc
+credentials*.json
+secrets*.json
